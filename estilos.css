@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #343a40;
+}
+
+form {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    resize: none;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+input[type="file"] {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.chisme {
+    background: #fff;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.chisme img, .chisme video {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
